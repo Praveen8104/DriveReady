@@ -1,0 +1,19 @@
+table,td{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+}
+table{
+    border-radius: 20px;
+    overflow: hidden;
+}
+tr:first-child{
+    background-color: lightgreen;
+}
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+tr:nth-child(even):hover{
+    background-color: lightblue;
+}

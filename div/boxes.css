@@ -1,0 +1,61 @@
+.div1{
+    border: 20px solid violet;
+}
+.div2{
+    border: 20px solid indigo ;
+}
+.div3{
+    border: 20px solid blue;
+}
+.div4{
+    border: 20px solid green;
+}
+.div5{
+    border: 20px solid yellow;
+}
+.div6{
+    border: 20px solid orange;
+}
+.div7{
+    border: 20px solid red;
+}
+.div1:hover{
+    border-color: red;
+    border-radius: 200px;
+}
+.div2:hover{
+    border-color: orange;
+    border-radius: 150px;
+}
+.div3:hover{
+    border-color: yellow;
+    border-radius: 100px;
+}
+.div4:hover{
+    border-color: green;
+    border-radius: 100px;
+}
+.div5:hover{
+    border-color: blue;
+    border-radius: 100px;
+}
+.div6:hover{
+    border-color: indigo;
+    border-radius: 100px;
+}
+.div7:hover{
+    border-color: violet;
+    border-radius: 100px;
+}
+.bradius{
+    border: 2px solid black;
+    padding: 60px;
+    margin: 40px;
+    width: 250px;
+    height: 350px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.main{
+    background-color: black;
+}
