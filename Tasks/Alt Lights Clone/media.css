@@ -46,6 +46,9 @@
     .name{
         left:100px
     }
+    .scroll{
+        justify-content: space-around;
+    }
 }
 @media screen and (max-width:800px) {
     .image{
@@ -61,10 +64,10 @@
         width: 70%;
     }
     .cards{
-        width: 80%;
+        width: 100%;
     }
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:768px) {
     .image{
         height: 70svh;
     }
@@ -81,6 +84,6 @@
         font-size: 25px;
     }
     .cards{
-        width: 50%;
+        width: 100%;
     }
 }
